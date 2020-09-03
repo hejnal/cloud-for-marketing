@@ -95,6 +95,7 @@ const setupAdsCampaigns =
     (spreadsheets, sheetName, pasteDataRequest, data, messageMaxSize) => {
       
       console.log("setupAdsCampaigns has been called.")
+      console.log(`received the following data: spreadsheets = ${spreadsheets}, sheetName = ${sheetName}, pasteDataRequest = ${pasteDataRequest}, data=${data}, messageMaxSize=${messageMaxSize}`)
     };
 
 /**
@@ -117,4 +118,5 @@ exports.sendData = (message, messageId, config) => {
   }
   
   console.log("Send Data has been called.");
+  console.log(`message: = ${message}, messageId: = ${messageId}, config = ${config}`)
 };
