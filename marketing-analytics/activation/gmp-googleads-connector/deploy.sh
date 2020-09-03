@@ -81,6 +81,7 @@ INTEGRATION_APIS_CODE=(
   "CM"
   "SFTP"
   "GS"
+  "ADS"
   "SA"
 )
 
